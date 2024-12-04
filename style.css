@@ -1,3 +1,131 @@
+
+body{
+    margin-top: 20px;
+    padding: 0;
+    font-family: arial;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 73, 73);
+}
+    header{
+        display: flex;
+        background-color: rgb(33, 33, 33);
+        border: none;
+        border-radius: 20px;
+        width: 35%;
+        margin-bottom: 13px;
+    }
+
+    header img{
+        margin: 10px;
+        border: green solid 2px;
+    }
+    
+    .right{
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: aliceblue;
+    }
+    
+    .right span{
+        font-size: 20px;
+        
+    }
+
+    .right #nome{
+        font-size: 17pt;
+        font-weight: bolder;
+      }
+
+
+    section-1{
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        justify-content:space-around;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 5px;
+        width: 34%;
+    }
+
+    section-1 i{
+        font-size: 40px;
+        padding:20px;
+        border: 3px green solid;
+        border-radius: 20px;
+        background-color: rgb(27, 26, 26);
+    }
+
+    section-2{
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        justify-content:space-around;
+        border-radius: 20px;
+        padding: 20px;
+        width: 33%;
+        margin-bottom: 13px;
+    }
+
+    section-2 i{
+        font-size: 25px;
+        color: green;
+        padding:15px;
+        border: 3px green solid;
+        border-radius: 20px;
+        background-color: rgb(27, 26, 26);
+    }
+
+    .js{
+        color: rgb(255, 213, 0);
+    }
+
+    .css{
+        color: rgb(0, 187, 255);
+        
+    }
+
+    .html{
+        color: orangered;
+    }
+
+    .insta{
+        color: rgb(255, 69, 100);
+    }
+
+    .git{
+        color: aliceblue;
+    }
+
+    .linkedin{
+        color: rgb(255, 255, 255);
+    }
+
+    .tiktok{
+        color: rgb(176, 31, 176);
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(33, 33, 33);
+        width: 100%;
+        border-radius: 20px;
+        width: 36%;
+    }
+
+    iframe{
+        padding: 10px;
+        margin-top: 5%;
+
+    }
+
+
+
 @media(max-width:600px) {
 
     body{
